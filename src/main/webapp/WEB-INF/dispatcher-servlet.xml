@@ -34,10 +34,9 @@
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">	
 	    <property name="driverClassName" value="org.apache.derby.jdbc.EmbeddedDriver" />
 	    <property name="url" value="jdbc:derby:classpath:db/issuetrackerDB" />
-<<<<<<< HEAD
-=======
+
 	    <!-- property name="url" value="jdbc:derby:issuetrackerDB" /-->
->>>>>>> branch 'master' of https://github.com/mzubok/issuetracker_sergei_doroshenko.git
+
 	    <!-- property name="url" value="jdbc:derby:D:\git\issuetracker_sergei_doroshenko\target\classes\db\issuetrackerDB"/-->
 	    <property name="username" value="admin"/>
 	    <property name="password" value="111"/>
